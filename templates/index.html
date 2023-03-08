@@ -1,0 +1,18 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Download ontologies</title>
+</head>
+<body>
+<h1>EMBL-EBI: The home for big data in biology. </h1>
+<h2>Download ontologies in csv file</h2>
+<p/>Disclaimer : Only the ontologies of www.ebi.ac.uk can be downloaded! The server has been setup to adapt to API from https://www.ebi.ac.uk
+<form method="post" action="{{ url_for('rdf_to_csv') }}">
+  <label for="Onto">Ontology name:</label><br>
+  <input type="text" id="Onto" name="Onto" value="go"><br>
+  <input type="submit" value="Download">
+</form> 
+
+
+</body>
+</html> 
