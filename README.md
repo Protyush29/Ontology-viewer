@@ -5,7 +5,7 @@ Download ontologies in csv file using rest api. Only the ontologies of www.ebi.a
 Create a new conda environment and launch the app by following steps below:\
 
 conda create -n new_env python=3\
-conda activate new_env __
-pip install requirements.txt __
+conda activate new_env\
+pip install requirements.txt\
 flask --app app run
 
