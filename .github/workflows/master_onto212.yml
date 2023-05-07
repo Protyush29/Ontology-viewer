@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'onto212'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AB0DA02C28FB424588BFE64E50855559 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F814B57CD54D492AB6205756EE116AF7 }}
